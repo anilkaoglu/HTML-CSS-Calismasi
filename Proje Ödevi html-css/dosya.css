@@ -1,0 +1,932 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;  
+}
+/* -- İNDEX KODLARI-- */
+
+ /* NAV KODLARI */
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(0, 21, 36);
+    letter-spacing: 1px;
+    animation-name: nav;
+    animation-duration: 2s;    
+}
+
+@keyframes nav {
+    from {background-color: rgb(214, 204, 153)}
+    to {background-color: rgb(0, 21, 36)}
+  }
+
+ul{
+    display: flex;  
+    font-style: italic;
+    font-size: large;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+
+ul li:hover{
+    background-color: rgb(68, 93, 72);   
+}
+
+a{
+    text-decoration: none;
+    color: rgb(214, 204, 153);   
+}
+
+/* ORTA KODLARI */
+
+.orta{
+    width: 100%;
+    height: 900px;
+    background-image: url(img/kapak.jpg);
+    background-size: cover;    
+}
+
+h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 70px;
+    color: rgb(0, 21, 36);
+    letter-spacing: 10px;
+    animation-name: giris;
+    animation-duration: 2s;
+}
+
+@keyframes giris {
+    from {color: rgb(214, 204, 153)}
+    to {color: rgb(0, 21, 36)}
+  }
+
+/* FOOTER KODLARI */
+footer{
+    width: 100%;
+    background-color: rgb(214, 204, 153);
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+h2{
+    color:rgb(0, 21, 36);
+    font-size: xx-large;   
+}
+
+p{
+    color:rgb(0, 21, 36);
+    font-size: large;
+}
+
+.container{
+    margin: auto;
+}
+
+.fa-brands{
+    font-size: 30px;
+    color:rgb(0, 21, 36);
+    padding: 8px;
+    padding-top: 2px;
+}
+
+/* -- İNDEX 2 KODLARI -- */
+
+/* KURS KART KODLARI */
+
+h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 50px;
+    letter-spacing: 15px;
+    color: rgb(0, 21, 36);
+    animation-name: kurs;
+    animation-duration: 2s;
+    
+}
+
+@keyframes kurs {
+    from {color: rgb(214, 204, 153)}
+    to {color: rgb(0, 21, 36)}
+  }
+
+body{
+    background-color: rgb(68, 93, 72);
+}
+
+.kurslar{
+    height: 600px;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin: auto;   
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.kurs1{
+    height: 260px;
+    width: 350px;
+    background-color: rgb(214, 204, 153);
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);          
+}
+
+.kurs2{
+    height: 260px;
+    width: 350px;
+    background-color: rgb(214, 204, 153);
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+}
+
+.kurs3{
+    height: 260px;
+    width: 350px;
+    background-color: rgb(214, 204, 153);
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+}
+
+.kurs4{
+    height: 260px;
+    width: 350px;
+    background-color: rgb(214, 204, 153);
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+}
+
+.kurs5{
+    height: 260px;
+    width: 350px;
+    background-color: rgb(214, 204, 153);
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+}
+
+.kurs6{
+    height: 260px;
+    width: 350px;
+    background-color: rgb(214, 204, 153);
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+}
+
+.tkart1{
+    height: 150px;
+    width: 350px;
+    background-image: url(img/tkart1.jpg);
+    background-size: cover;  
+    border-radius: 10px 10px 0 0; 
+}
+.tkart2{
+    height: 150px;
+    width: 350px;
+    background-image: url(img/tkart2.jpg);
+    background-size: cover;  
+    border-radius: 10px 10px 0 0; 
+}
+.tkart3{
+    height: 150px;
+    width: 350px;
+    background-image: url(img/tkart3.jpg);
+    background-size: cover;  
+    border-radius: 10px 10px 0 0; 
+}
+.tkart4{
+    height: 150px;
+    width: 350px;
+    background-image: url(img/tkart4.jpg);
+    background-size: cover;  
+    border-radius: 10px 10px 0 0; 
+}
+.tkart5{
+    height: 150px;
+    width: 350px;
+    background-image: url(img/tkart5.jpg);
+    background-size: cover;  
+    border-radius: 10px 10px 0 0; 
+}
+.tkart6{
+    height: 150px;
+    width: 350px;
+    background-image: url(img/tkart6.jpg);
+    background-size: cover;  
+    border-radius: 10px 10px 0 0; 
+}
+
+h4{
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    margin-top: 25px;
+    color: rgb(0, 21, 36);
+}
+
+p{
+    font-size: large;
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(0, 21, 36);
+    margin-top: 10px;
+   
+}
+
+/* -- İNDEX 3 KODLARI */
+
+.hakkımızdaorta p{
+    font-size: 15px;
+    margin-left: 20px;
+    text-align: justify;
+    color: rgb(0, 21, 36);
+}
+
+/* EĞİTMENLER KODLARI */
+
+.egitmenler{
+    height: 600px;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin: auto;   
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.egitmen1{
+    height: 450px;
+    width: 350px;
+    background-color: rgb(214, 204, 153);
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);          
+}
+.egitmen2{
+    height: 450px;
+    width: 350px;
+    background-color: rgb(214, 204, 153);
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+}
+.egitmen3{
+    height: 450px;
+    width: 350px;
+    background-color: rgb(214, 204, 153);
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.69);
+}
+
+.tblok1{
+    height: 300px;
+    width: 350px;
+    background-image: url(img/furkan.jpg);
+    background-size: cover;  
+    border-radius: 10px 10px 0 0; 
+}
+.tblok2{
+    height: 300px;
+    width: 350px;
+    background-image: url(img/yusuf.jpg);
+    background-size: cover;  
+    border-radius: 10px 10px 0 0; 
+}
+.tblok3{
+    height: 300px;
+    width: 350px;
+    background-image: url(img/ahmet.jpg);
+    background-size: cover;  
+    border-radius: 10px 10px 0 0; 
+}
+
+/* -- İNDEX 4 KODLARI */
+
+.kayıt{
+   width: 500px;
+   height: 570px;
+   border-radius: 20px;
+   background-color: rgb(214, 204, 153);
+   margin-left: 170px;
+   margin-top: 25px;   
+   float: left;
+}
+
+legend{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: x-large;
+    letter-spacing: 2px;   
+}
+
+.kayıt2 legend{
+    padding-bottom: 10px;
+}
+
+label{
+    margin-left: 20px;
+    font-size: large;
+    letter-spacing: 1px;
+    
+}
+
+input{
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+select{
+    margin-left: 20px;  
+}
+
+.kayıt2{
+    width: 500px;
+    height: 570px;
+    border-radius: 20px;
+    background-color: rgb(214, 204, 153);
+    margin-left: 170px;
+    margin-top: 25px;  
+    float: left; 
+    margin-bottom: 50px;
+ }
+
+ .kayıt2 p{
+    font-size: 15px;
+    
+ }
+
+ /* İNDEX 5 KODLARI */
+
+ .iletisim1 {
+    width: 250px;
+    height: 200px;
+    background-color: rgb(214, 204, 153);
+    animation-name: ilt1;
+    animation-duration: 4s;
+    margin-left: 105px;
+    margin-top: 60px;
+    float: left;
+  }
+
+  @keyframes ilt1 {
+    from {background-color: rgb(0, 21, 36);}
+    to {background-color: rgb(214, 204, 153)}
+  }
+
+  .iletisim1 p{
+    text-align: center;
+    color: rgb(0, 21, 36);
+  }
+
+  .iletisim1 h4{
+    text-align: center;
+    color: rgb(0, 21, 36);
+    padding-top: 10px;
+  }
+
+  iframe{
+    margin-top: 75px;
+    margin-left: 85px;
+    margin-bottom: 30px;
+    width:1350px;
+    height:400px;
+  }
+ 
+  /* MEDİA SCREEN KODLARI */
+  @media screen  and (max-width:1252px){
+
+    /* İNDEX 5 */
+    iframe{
+        margin-top: 75px;
+        margin-bottom: 30px;
+        width:75%;
+        padding-left: 140px;     
+      }
+
+      .iletisim1 {
+        width: 250px;
+        height: 200px;
+        margin-left: 50px;
+        margin-top: 60px; 
+      }
+
+      /* İNDEX 4 */
+      .kayıt{
+        width: 500px;
+        height: 570px;
+        margin-left: 80px;
+        margin-top: 25px;
+     }
+
+     .kayıt2{
+        width: 500px;
+        height: 570px;
+        margin-left: 80px;
+        margin-top: 25px;  
+     }
+  }
+
+  @media screen  and (max-width:1200px){
+     /* İNDEX 5 */
+     iframe{
+        margin-top: 75px;
+        margin-bottom: 30px;
+        width:75%;
+        padding-left: 140px;     
+      }
+
+      .iletisim1 {
+        width: 250px;
+        height: 200px;
+        margin-left: 250px;
+        margin-top: 60px;
+      }
+
+      /* İNDEX 4 */
+      .kayıt{
+        width: 400px;
+        height: 570px;
+        margin-left: 140px;
+        margin-top: 25px;   
+     }
+
+     .kayıt2{
+        width: 400px;
+        height: 570px;
+        margin-left: 140px;
+        margin-top: 25px;  
+     }
+  }
+
+  @media screen  and (max-width:1100px){
+    /* İNDEX 5 */
+    .iletisim1 {
+        width: 280px;
+        height: 200px;
+        margin-left: 190px;
+        margin-top: 60px;
+      }
+
+      /* İNDEX 4 */
+      .kayıt{
+        width: 400px;
+        height: 570px;
+        margin-left: 100px;
+        margin-top: 25px;   
+     }
+
+     .kayıt2{
+        width: 400px;
+        height: 570px;
+        margin-left: 100px;
+        margin-top: 25px;  
+     }
+
+     /* -- İNDEX 3 KODLARI */
+     .egitmenler{
+        height: 600px;
+        width: 1000px;
+     }
+
+     .egitmen1{
+    height: 450px;
+    width: 300px;
+     }
+
+     .egitmen2{
+    height: 450px;
+    width: 300px;
+     }
+
+     .egitmen3{
+    height: 450px;
+    width: 300px;
+     }
+
+     .tblok1{
+    height: 300px;
+    width: 300px;
+     }
+
+     .tblok2{
+    height: 300px;
+    width: 300px; 
+     }
+
+     .tblok3{
+    height: 300px;
+    width: 300px;
+     }
+
+    /* -- İNDEX 2 KODLARI -- */
+     .kurslar{
+     height: 600px;
+     width: 900px;
+     }
+
+     .kurs1{
+     height: 260px;
+     width: 280px;
+     }
+     
+     .kurs2{
+     height: 260px;
+     width: 280px;
+     }
+     
+     .kurs3{
+     height: 260px;
+     width: 280px;
+     }
+
+     .kurs4{
+     height: 260px;
+     width: 280px;
+     }
+
+     .kurs5{
+     height: 260px;
+     width: 280px;
+     }
+
+     .kurs6{
+     height: 260px;
+     width: 280px;
+     }
+
+     .tkart1{
+     height: 150px;
+     width: 280px;
+     }
+
+     .tkart2{
+     height: 150px;
+     width: 280px;
+     }
+
+     .tkart3{
+     height: 150px;
+     width: 280px;
+     }
+
+     .tkart4{
+     height: 150px;
+     width: 280px;
+     }
+
+     .tkart5{
+     height: 150px;
+     width: 280px;
+     }
+
+     .tkart6{
+     height: 150px;
+     width: 280px;
+     }
+  }
+
+      @media screen  and (max-width:1000px){
+    /* İNDEX 5 */
+     .iletisim1 {
+        width: 280px;
+        height: 200px;
+        margin-left: 150px;
+        margin-top: 60px;
+      }
+
+      /* İNDEX 4 */
+     .kayıt{
+        width: 350px;
+        height: 570px;
+        margin-left: 100px;
+        margin-top: 25px;   
+     }
+
+     .kayıt2{
+        width: 350px;
+        height: 570px;
+        margin-left: 100px;
+        margin-top: 25px;  
+     }
+
+     /* -- İNDEX 3 KODLARI */
+     .egitmenler{
+        height: 600px;
+        width: 800px;
+        padding-top: 50px;
+     }
+
+     .egitmen1{
+     height: 400px;
+     width: 250px;
+     }
+
+     .egitmen2{
+     height: 400px;
+     width: 250px;
+     }  
+
+     .egitmen3{
+     height: 400px;
+     width: 250px;
+     }
+
+    .tblok1{
+     height: 250px;
+     width: 250px;
+     }
+
+     .tblok2{
+     height: 250px;
+     width: 250px;
+     }
+
+     .tblok3{
+     height: 250px;
+     width: 250px;
+     }
+  }
+
+  @media screen  and (max-width:900px){
+    /* İNDEX 5 */
+     .iletisim1 {
+        width: 250px;
+        height: 150px;
+        margin-left: 140px;
+        margin-top: 60px;
+      }
+
+      iframe{
+        margin-top: 75px;
+        margin-bottom: 30px;
+        width:75%;
+        padding-left: 50px;     
+      }
+
+      /* İNDEX 4 */
+      .kayıt{
+        width: 300px;
+        height: 570px;
+        margin-left: 100px;
+        margin-top: 25px;   
+     }
+
+     .kayıt2{
+        width: 300px;
+        height: 570px;
+        margin-left: 100px;
+        margin-top: 25px;  
+        margin-bottom: 50px;
+     }
+
+     /* -- İNDEX 2 KODLARI -- */
+     .kurslar{
+     height: 600px;
+     width: 750px;
+     padding-top: 50px;
+     }
+
+     .kurs1{
+     height: 260px;
+     width: 230px;
+     }
+
+     .kurs2{
+     height: 260px;
+     width: 230px;
+     }
+
+     .kurs3{
+     height: 260px;
+     width: 230px;
+     }
+
+     .kurs4{
+     height: 260px;
+     width: 230px;
+     }
+
+     .kurs5{
+     height: 260px;
+     width: 230px;
+     }
+
+     .kurs6{
+     height: 260px;
+     width: 230px;
+     }
+
+     .tkart1{
+     height: 150px;
+     width: 230px;
+     }
+
+     .tkart2{
+     height: 150px;
+     width: 230px;
+     }
+
+     .tkart3{
+     height: 150px;
+     width: 230px;
+     }
+
+     .tkart4{
+     height: 150px;
+     width: 230px;
+     }
+
+     .tkart5{
+     height: 150px;
+     width: 230px;
+     }
+
+    .tkart6{
+     height: 150px;
+     width: 230px;
+     }
+ 
+    h4{
+     text-align: center;
+     font-size: large;
+     }
+
+    p{
+    font-size: medium;
+    text-align: center;
+     }
+  }
+
+@media screen  and (max-width:800px){
+     /* İNDEX 5 */
+     .iletisim1 {
+        width: 200px;
+        height: 120px;
+        margin-left: 140px;
+        margin-top: 60px;
+      }
+
+      /* İNDEX 4 */
+      .kayıt{
+        width: 250px;
+        height: 570px;
+        margin-left: 100px;
+        margin-top: 25px;   
+     }
+
+     .kayıt2{
+        width: 250px;
+        height: 570px;
+        margin-left: 100px;
+        margin-top: 25px;  
+        margin-bottom: 50px;
+     }
+
+     /* -- İNDEX 3 KODLARI */
+
+     /* İNDEX 5 */
+     .egitmenler{
+        height: 450px;
+        width: 650px;
+        padding-top: 50px;
+     }
+    
+     .egitmen1{
+     height: 300px;
+     width: 200px;      
+     }
+
+     .egitmen2{
+     height: 300px;
+     width: 200px;
+     }
+
+     .egitmen3{
+     height: 300px;
+     width: 200px;
+     }
+
+     .tblok1{
+     height: 200px;
+     width: 200px;
+     }
+
+     .tblok2{
+     height: 200px;
+     width: 200px;
+     }
+
+    .tblok3{
+     height: 200px;
+     width: 200px;
+     }
+
+     /* -- İNDEX 2 KODLARI -- */
+     .kurslar{
+     height: 600px;
+     width: 650px;
+     padding-top: 50px;
+     }
+
+    .kurs1{
+     height: 220px;
+     width: 200px;
+     }
+
+     .kurs2{
+     height: 220px;
+     width: 200px;
+     }
+
+     .kurs3{
+     height: 220px;
+     width: 200px;
+     }
+
+     .kurs4{
+     height: 220px;
+     width: 200px;
+     }
+
+     .kurs5{
+     height: 220px;
+     width: 200px;
+     }
+
+     .kurs6{
+     height: 220px;
+     width: 200px;
+     }
+
+     .tkart1{
+     height: 100px;
+     width: 200px;
+     }
+
+     .tkart2{
+     height: 100px;
+     width:200px;
+     }
+
+     .tkart3{
+     height: 100px;
+     width:200px; 
+     }
+
+     .tkart4{
+     height: 100px;
+     width:200px;
+     }
+
+     .tkart5{
+     height: 100px;
+     width:200px;
+     }
+
+     .tkart6{
+     height: 100px;
+     width:200px;
+     }
+  
+     h4{
+     text-align: center;
+     font-size: large;
+     }
+
+     p{
+     font-size: small;
+     text-align: center;
+     }
+}
+
